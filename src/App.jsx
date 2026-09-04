@@ -7,6 +7,13 @@ const projects = [
     href: 'https://github.com/ademayowa123/attendng',
   },
   {
+    name: 'Portfolio',
+    meta: '2026 — Personal project',
+    desc: 'A personal portfolio website showcasing my frontend development skills, projects, experience, and work in education technology.',
+    stack: ['React', 'CSS', 'Vite'],
+    href: 'https://github.com/ademayowa123/new-portfolio',
+  },
+  {
     name: 'Old Portfolio',
     meta: '2024 — Personal project',
     desc: 'An earlier version of this portfolio, built to showcase my early frontend work and mark how my skills and design sense have developed since.',
@@ -80,7 +87,7 @@ export default function App() {
           <div className="wrap">
             <div className="section-head">
               <h2>Selected work</h2>
-              <span className="index">03 projects</span>
+              <span className="index">04 projects</span>
             </div>
             {projects.map((p) => (
               <article className="project" key={p.name}>
