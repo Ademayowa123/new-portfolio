@@ -14,25 +14,46 @@ const projects = [
     href: 'https://github.com/ademayowa123/new-portfolio',
   },
   {
+    name: 'Fauxica',
+    meta: '2025 — Personal project',
+    desc: 'A responsive, e-commerce-inspired fashion landing page focused on clean visual design, product presentation, and an engaging, mobile-friendly user experience.',
+    stack: ['HTML', 'SCSS', 'JavaScript'],
+    href: 'https://fauxicapage.vercel.app',
+  },
+  {
     name: 'Old Portfolio',
     meta: '2024 — Personal project',
     desc: 'An earlier version of this portfolio, built to showcase my early frontend work and mark how my skills and design sense have developed since.',
     stack: ['HTML', 'CSS', 'SCSS', 'JavaScript'],
-    href: 'https://github.com/Ademayowa123/old-portfolio',
+    href: 'https://oldadetonaademayowaportfolio.vercel.app',
   },
   {
-    name: 'Fauxica',
+    name: 'Black Jack Game',
     meta: '2024 — Personal project',
-    desc: 'A responsive, e-commerce-inspired fashion landing page focused on clean visual design, product presentation, and an engaging, mobile-friendly user experience.',
+    desc: 'A collection of interactive JavaScript challenges, including a Blackjack game, Cat Generator, Rock Paper Scissors, and Random Button challenge. Built to practice JavaScript logic, DOM manipulation, and interactive web development.',
     stack: ['HTML', 'CSS', 'JavaScript'],
-    href: 'https://github.com/Ademayowa123/fauxica-fashion-landing-page',
+    href: 'https://blackjackgenerator.vercel.app/',
+  },
+  {
+    name: 'Regxta',
+    meta: '2025 — Personal project',
+    desc: 'A responsive fintech landing page focused on clean visual design, financial service presentation, and an accessible, mobile-friendly user experience.',
+    stack: ['HTML', 'SCSS', 'JavaScript'],
+    href: 'https://regxta-landing-page.vercel.app',
+  },
+  {
+    name: 'Brandcord',
+    meta: '2024 — Personal project',
+    desc: 'A responsive brand-focused landing page demo built with HTML, CSS, and JavaScript, featuring modern UI design, responsive layouts, and engaging visual presentation.',
+    stack: ['HTML', 'SCSS', 'JavaScript'],
+    href: 'https://brandcorddemo.vercel.app',
   },
 ]
 
 const toolkit = [
   {
     category: 'Languages',
-    items: ['JavaScript / TypeScript', 'HTML & CSS', 'Python'],
+    items: ['JavaScript', 'HTML & CSS', 'Python'],
   },
   {
     category: 'Frameworks',
@@ -87,7 +108,7 @@ export default function App() {
           <div className="wrap">
             <div className="section-head">
               <h2>Selected work</h2>
-              <span className="index">04 projects</span>
+              <span className="index">07 projects</span>
             </div>
             {projects.map((p) => (
               <article className="project" key={p.name}>
@@ -171,7 +192,7 @@ export default function App() {
                 </div>
                 <div className="about-fact">
                   <dt>Resume</dt>
-                  <dd><a href="https://drive.google.com/uc?export=download&id=16-bDexkCTGiA9b_bRJPRv3d9b0j3n55T">Download PDF</a></dd>
+                  <dd><a href="https://drive.google.com/file/d/1iLGr9Hrcz34KcQTMsJ0rLug7Yv3EP3TX">Download PDF</a></dd>
                 </div>
               </dl>
             </div>
